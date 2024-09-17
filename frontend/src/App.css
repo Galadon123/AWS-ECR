@@ -1,0 +1,83 @@
+.app-container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.item-card input {
+  padding: 10px;
+  font-size: 16px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:first-child {
+  background-color: #3e80c7;
+  color: white;
+}
+
+.button-group button:last-child {
+  background-color: #c02f3d;
+  color: white;
+}
