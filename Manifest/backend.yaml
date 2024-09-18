@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: fazlulkarim105925/backend:v1.5
+        image: fazlulkarim105925/backend:v1.6
         ports:
         - containerPort: 5000
 ---

@@ -1,7 +1,7 @@
 # Variables
 DOCKER_USERNAME = fazlulkarim105925
 IMAGE_NAME = backend
-TAG ?= v1.5
+TAG ?= v1.6
 
 # Build the Docker image
 build:

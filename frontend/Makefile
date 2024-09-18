@@ -1,7 +1,7 @@
 # Variables
 DOCKER_USERNAME = fazlulkarim105925
 IMAGE_NAME = frontend
-TAG ?= v2.1
+TAG ?= v2.3
 
 # Build the Docker image
 build:
